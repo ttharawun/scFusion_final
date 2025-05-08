@@ -2,7 +2,7 @@
 
 ## Updated Version of scFusion  [![DOI](https://zenodo.org/badge/372129480.svg)](https://zenodo.org/badge/latestdoi/372129480)
 
-scFusion is a computational pipeline for detecting gene fusions at single-cell resolution. scFusion works on Linux/Mac OS. 
+scFusion is a computational pipeline for detecting gene fusions at single-cell resolution. Our implementation was to modify the scFusion pipeline to incorporate cell type information into its scoring process for fusion candidates. scFusion works on Linux/Mac OS. 
 
 ## Software Prerequisite
 
