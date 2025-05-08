@@ -17,7 +17,8 @@ The software below should be in your PATH. **(They can be installed by conda and
 - python module: [pyensembl](https://github.com/openvax/pyensembl)
 - python module: pysam (tested on version 0.18.0)
 - python module: tensorflow, keras, and numpy (version 2.8.0, 2.8.0, and 1.22.3, respectively) **OR** tensorflow, keras, numpy, and scipy (version 2.3.0, 2.4.3, 1.18.5, and 1.4.1, respectively)
-### New additions
+  
+### New Add-ons
 - CellTypist (tested on version 1.6.3)
 - AnnData (tested on version 0.9.2)
 - Scanpy (tested on version 1.9.8) 
@@ -42,11 +43,17 @@ The software below should be in your PATH. **(They can be installed by conda and
 
 - (Optional) [Mappabilityfile](https://genome.ucsc.edu/cgi-bin/hgTables) (Can be obtained from UCSC) **If you are using the hg38 version of mappability file, please ensure the file format is the same as hg19's. (Only 4 columns. chr, start, end, value)** If you do not provide this file, scFusion will turn off the mappability filter.
 
+## About the annotation file
+
+The annotation file (\*.gtf) may have different format, so making scFusion be compatible with all the formats is difficult. 'gene_name' is the gene name indicator in the annotation, and 'gene_type' or 'gene_biotype' are the gene type (pseudo gene or LncRNA). 
+
 ## Data Requirement for Testing 
 
 - Our implementation was tested on SRR5658106-SRR5658116 from GSE99795 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99795). Fastq files were downloaded using fasterq-dump command.
 
 - For this dataset, barcodes are in barcode.txt file in the data folder. 
+
+- Sample output can be found on
 
 ## Usage
 
@@ -56,8 +63,4 @@ See **Manual.pdf** for details.
 
 ## Alternative installation
 
-scFusion is easy to use, consisting of Python, R, and Shell scripts. All prerequisites can be installed by conda and pip. 
-
-## About the annotation file
-
-The annotation file (\*.gtf) may have different format, so making scFusion be compatible with all the formats is difficult. 'gene_name' is the gene name indicator in the annotation, and 'gene_type' or 'gene_biotype' are the gene type (pseudo gene or LncRNA). 
+scFusion consists of Python, R, and Shell scripts. All prerequisites can be installed by conda and pip. 
