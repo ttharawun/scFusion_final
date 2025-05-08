@@ -53,7 +53,7 @@ The annotation file (\*.gtf) may have different format, so making scFusion be co
 
 - For this dataset, barcodes are in barcode.txt file in the data folder. 
 
-- Sample output can be found on
+- Sample output can be found on https://drive.google.com/drive/folders/1BEtmZlxyxr1_5Z6o0ajIdojwqsq5O3CK?usp=sharing
 
 ## Usage
 
