@@ -1,3 +1,5 @@
+# chatgpt: https://chatgpt.com/share/681caac8-c610-800c-aac3-66273cbfbbde
+
 # Tint Updated for STAR Mapping
 
 #!/bin/bash
