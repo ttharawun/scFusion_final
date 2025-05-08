@@ -1,6 +1,6 @@
-# scFusion_final
+# scFusion (Tint, Sadia, Jill)
 
-# scFusion  [![DOI](https://zenodo.org/badge/372129480.svg)](https://zenodo.org/badge/latestdoi/372129480)
+## Updated Version of scFusion  [![DOI](https://zenodo.org/badge/372129480.svg)](https://zenodo.org/badge/latestdoi/372129480)
 
 scFusion is a computational pipeline for detecting gene fusions at single-cell resolution. scFusion works on Linux/Mac OS. 
 
