@@ -1,3 +1,5 @@
+# chatgpt: https://chatgpt.com/share/681cab8a-ea80-800c-bf29-7950c7f8f2cb
+
 # Tint edited to save extra output
 
 from __future__ import print_function
