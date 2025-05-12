@@ -44,7 +44,7 @@ The software below should be in your PATH. **(They can be installed by conda and
 - (Optional) [Mappabilityfile](https://genome.ucsc.edu/cgi-bin/hgTables) (Can be obtained from UCSC) **If you are using the hg38 version of mappability file, please ensure the file format is the same as hg19's. (Only 4 columns. chr, start, end, value)** If you do not provide this file, scFusion will turn off the mappability filter.
 
 ### SparseScoring.py
-This script is a bit different, as this could not be integrated with the rest of the code because ChiDist_2.2.1_Combine.R script could not be run. This code takes input data directory and output file as arguments and assumes input data directory has a set of files, once for each type of cell that contains ChiDist for fusion candidates, so these files have one line per fusion candidate. These files are expected to be tab separated, containing at least two columns named FusionName and Zscore. After reading these files, for each fusion candidate, zscores are combined for each fusion candidate. Finally, it writes the results which is combined zscores for each fusion candidate into output file. Sample inputs and results can be found in /results/PValueData/directory.
+This script is a bit different, as this could not be integrated with the rest of the code because ChiDist_2.2.1_Combine.R script could not be run. This code takes input data directory and output file as arguments and assumes input data directory has a set of files, once for each type of cell that contains ChiDist for fusion candidates, so these files have one line per fusion candidate. These files are expected to be tab separated, containing at least two columns named FusionName and Zscore. After reading these files, for each fusion candidate, zscores are combined for each fusion candidate. Finally, it writes the results which is combined zscores for each fusion candidate into output file. Sample inputs and results can be found in /results/PValueData directory.
 
 ## About the annotation file
 
@@ -56,7 +56,7 @@ The annotation file (\*.gtf) may have different format, so making scFusion be co
 
 - For this dataset, barcodes are in barcode.txt file in the data folder. 
 
-- Sample output can be found on https://drive.google.com/drive/folders/1BEtmZlxyxr1_5Z6o0ajIdojwqsq5O3CK?usp=sharing
+- Sample output can be found on https://drive.google.com/drive/folders/1BEtmZlxyxr1_5Z6o0ajIdojwqsq5O3CK?usp=sharing and in /results/PValueData directory for SparseScoring.py
 
 ## Usage
 
