@@ -1,0 +1,5 @@
+FusionName	CellSupport	Zscore
+BRCA--MYC	3	0.25
+AKT1--MYC	5	0.5
+AKT1--MTOR	7	0.7
+TP53--CDK2	1	0.1
